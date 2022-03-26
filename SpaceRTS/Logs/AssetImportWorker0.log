@@ -11,19 +11,19 @@ C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/Anthony/Painful RTS
+C:/Users/Anthony/Documents/GitHub/SpaceRTS/SpaceRTS
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51193
-Successfully changed project path to: C:/Users/Anthony/Painful RTS
-C:/Users/Anthony/Painful RTS
+57660
+Successfully changed project path to: C:/Users/Anthony/Documents/GitHub/SpaceRTS/SpaceRTS
+C:/Users/Anthony/Documents/GitHub/SpaceRTS/SpaceRTS
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 41.43 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 43.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/Anthony/Painful RTS/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Anthony/Documents/GitHub/SpaceRTS/SpaceRTS/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -35,89 +35,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56672
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000987 seconds.
+Registered in 0.001145 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 45.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 44.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.471 seconds
+- Completed reload, in  0.500 seconds
 Domain Reload Profiling:
-	ReloadAssembly (471ms)
-		BeginReloadAssembly (38ms)
+	ReloadAssembly (500ms)
+		BeginReloadAssembly (42ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (373ms)
-			LoadAssemblies (37ms)
+		EndReloadAssembly (394ms)
+			LoadAssemblies (41ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (123ms)
+			SetupTypeCache (131ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (148ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (153ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (45ms)
 				BeforeProcessingInitializeOnLoad (7ms)
-				ProcessInitializeOnLoadAttributes (68ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				ProcessInitializeOnLoadAttributes (73ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002998 seconds.
+Registered in 0.003171 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 43.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.898 seconds
+- Completed reload, in  0.920 seconds
 Domain Reload Profiling:
-	ReloadAssembly (898ms)
-		BeginReloadAssembly (113ms)
+	ReloadAssembly (920ms)
+		BeginReloadAssembly (118ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (736ms)
-			LoadAssemblies (65ms)
+		EndReloadAssembly (750ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (248ms)
+			SetupTypeCache (250ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (283ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (289ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (42ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (165ms)
-				ProcessInitializeOnLoadMethodAttributes (16ms)
+				RefreshPlugins (44ms)
+				BeforeProcessingInitializeOnLoad (59ms)
+				ProcessInitializeOnLoadAttributes (166ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2197 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 95.8 MB.
-System memory in use after: 95.9 MB.
+System memory in use before: 95.9 MB.
+System memory in use after: 96.0 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2630.
-Total: 3.504600 ms (FindLiveObjects: 0.303100 ms CreateObjectMapping: 0.159100 ms MarkObjects: 2.977400 ms  DeleteObjects: 0.063200 ms)
+Total: 3.065800 ms (FindLiveObjects: 0.185600 ms CreateObjectMapping: 0.048100 ms MarkObjects: 2.761200 ms  DeleteObjects: 0.069500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,225 +131,57 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/2D Pixel Dungeon Asset Pack/Character_animation
-  artifactKey: Guid(634fb2b70d3bba8429c321df0b518d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/Character_animation using Guid(634fb2b70d3bba8429c321df0b518d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9f8bf8d9a62ae85a326194a3519983') in 0.007374 seconds 
-  Import took 0.010287 seconds .
+  path: Assets/Light.png
+  artifactKey: Guid(5342ba38015c25c4696d363937cf85b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Light.png using Guid(5342ba38015c25c4696d363937cf85b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccae8fa8a21266a4a5bf0ea5ef8ed227') in 0.077017 seconds 
+  Import took 0.080113 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000402 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle
-  artifactKey: Guid(1fbef0fdf4bd73d439b1725d382b526f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle using Guid(1fbef0fdf4bd73d439b1725d382b526f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b7843b8cc1fb1742cee5d0a684417a') in 0.005623 seconds 
-  Import took 0.009713 seconds .
+  Time since last request: 25.029496 seconds.
+  path: Assets/Light.png
+  artifactKey: Guid(5342ba38015c25c4696d363937cf85b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Light.png using Guid(5342ba38015c25c4696d363937cf85b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c33257ef0fffb9b8d452ea29890ee7cb') in 0.029359 seconds 
+  Import took 0.032465 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.387985 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2
-  artifactKey: Guid(dd56b805620c0ee4c89335207210b0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2 using Guid(dd56b805620c0ee4c89335207210b0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa29bd25ab7c6f1b0132555b748ac28d') in 0.006115 seconds 
-  Import took 0.009265 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.614952 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v1
-  artifactKey: Guid(0c2aa3670c14df742a2a3165a9f9688e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v1 using Guid(0c2aa3670c14df742a2a3165a9f9688e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c9d149078192f66e340b54710848da') in 0.005031 seconds 
-  Import took 0.009085 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.091016 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v1/skeleton2_v1_1.png
-  artifactKey: Guid(eb9775d4c3a850c43a0fccb12ca29201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v1/skeleton2_v1_1.png using Guid(eb9775d4c3a850c43a0fccb12ca29201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c05061a8659fd42b58534fb63327d1') in 0.072200 seconds 
-  Import took 0.076357 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v1/skeleton2_v1_4.png
-  artifactKey: Guid(3f30d22ac17a77f4a8349b7325b379c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v1/skeleton2_v1_4.png using Guid(3f30d22ac17a77f4a8349b7325b379c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926c0561cbc2fce4bd7ff5b032365fd1') in 0.013774 seconds 
-  Import took 0.016631 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v1/skeleton2_v1_3.png
-  artifactKey: Guid(7fe9c693e416b0641970f623d237cd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v1/skeleton2_v1_3.png using Guid(7fe9c693e416b0641970f623d237cd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162c6592845172ae8f6add5379e73aa7') in 0.036225 seconds 
-  Import took 0.039362 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v1/skeleton2_v1_2.png
-  artifactKey: Guid(d432638bf6b841d48bffcca6c29b22aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v1/skeleton2_v1_2.png using Guid(d432638bf6b841d48bffcca6c29b22aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e63a96054a31862edec547f8172af4d') in 0.013139 seconds 
-  Import took 0.016175 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 585.345316 seconds.
-  path: Assets/Astronaut-Sheet.png
-  artifactKey: Guid(584ddd120e083034eb0c45c19ec8ed39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Astronaut-Sheet.png using Guid(584ddd120e083034eb0c45c19ec8ed39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a5108b155f23be70177ab9e2cc78159') in 0.037280 seconds 
-  Import took 0.041260 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 141.044527 seconds.
-  path: Assets/Astronaut-Sheet.png
-  artifactKey: Guid(584ddd120e083034eb0c45c19ec8ed39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Astronaut-Sheet.png using Guid(584ddd120e083034eb0c45c19ec8ed39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8dcc1d5651887fab67d985be4cc1e5') in 0.129965 seconds 
-  Import took 0.133943 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 64.453116 seconds.
-  path: Assets/Astronaut-Sheet.png
-  artifactKey: Guid(584ddd120e083034eb0c45c19ec8ed39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Astronaut-Sheet.png using Guid(584ddd120e083034eb0c45c19ec8ed39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da665aa1d7ffa34db5ecd8eee908d71b') in 0.136216 seconds 
-  Import took 0.139757 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002783 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.811 seconds
-Domain Reload Profiling:
-	ReloadAssembly (812ms)
-		BeginReloadAssembly (93ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (668ms)
-			LoadAssemblies (67ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (241ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (238ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (47ms)
-				ProcessInitializeOnLoadAttributes (174ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2186 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.1 MB.
-System memory in use after: 98.3 MB.
-
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2640.
-Total: 3.704100 ms (FindLiveObjects: 0.228000 ms CreateObjectMapping: 0.047700 ms MarkObjects: 3.407800 ms  DeleteObjects: 0.019100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1252.262674 seconds.
-  path: Assets/Characters/Brute.png
-  artifactKey: Guid(1b9ae517a43f89f4487dd7d002546aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Brute.png using Guid(1b9ae517a43f89f4487dd7d002546aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2569690c87186399ed79ea8a0ae92445') in 0.052738 seconds 
-  Import took 0.056190 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Characters/ScaryAlien.png
-  artifactKey: Guid(42866a5b87f8f0841b010b986361cbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/ScaryAlien.png using Guid(42866a5b87f8f0841b010b986361cbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a47dc252f30fa759fe0bb3eddb6b70') in 0.018871 seconds 
-  Import took 0.022443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.069624 seconds.
-  path: Assets/Characters/Brute.png
-  artifactKey: Guid(1b9ae517a43f89f4487dd7d002546aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Brute.png using Guid(1b9ae517a43f89f4487dd7d002546aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f3947e9aca39188d344d0e0fd93b82') in 0.010718 seconds 
-  Import took 0.014719 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.184834 seconds.
-  path: Assets/Characters/Brute.png
-  artifactKey: Guid(1b9ae517a43f89f4487dd7d002546aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Brute.png using Guid(1b9ae517a43f89f4487dd7d002546aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d00407fb66b8ac55158cec51900a7b') in 0.082882 seconds 
-  Import took 0.086909 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 101.627427 seconds.
-  path: Assets/Characters/ScaryAlien.png
-  artifactKey: Guid(42866a5b87f8f0841b010b986361cbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/ScaryAlien.png using Guid(42866a5b87f8f0841b010b986361cbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5067e7452f55f3b1137ab7cdf85ffd0') in 0.008873 seconds 
-  Import took 0.012902 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.065807 seconds.
-  path: Assets/Characters/ScaryAlien.png
-  artifactKey: Guid(42866a5b87f8f0841b010b986361cbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/ScaryAlien.png using Guid(42866a5b87f8f0841b010b986361cbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd22118339ba0353fad35e7d3a07c183') in 0.077524 seconds 
-  Import took 0.080686 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2539.149327 seconds.
-  path: Assets/Weapons
-  artifactKey: Guid(00e91cc8d2ddaca49a92fee9ded845dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons using Guid(00e91cc8d2ddaca49a92fee9ded845dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b0de56d278b42c8975acb2ca606d61') in 0.005653 seconds 
-  Import took 0.009621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.058068 seconds.
-  path: Assets/Weapons/Shooter_sprites.png
-  artifactKey: Guid(1b6994541fb9b384ba2a70f849a2ad4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Shooter_sprites.png using Guid(1b6994541fb9b384ba2a70f849a2ad4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40cc4499c0d6f1985736c77f417ffac7') in 0.022019 seconds 
-  Import took 0.025825 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
+  Time since last request: 16.033893 seconds.
   path: Assets/Weapons/Turret.png
   artifactKey: Guid(8a1e0cdaa385d8b4690e8e52bfc2bc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Turret.png using Guid(8a1e0cdaa385d8b4690e8e52bfc2bc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04bd0af0c267a05b3f08f4e4153654a') in 0.011595 seconds 
-  Import took 0.015135 seconds .
+Start importing Assets/Weapons/Turret.png using Guid(8a1e0cdaa385d8b4690e8e52bfc2bc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1bd4da4b5a5bdee11d1f1faaba1f5af') in 0.014391 seconds 
+  Import took 0.018205 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 13.491440 seconds.
-  path: Assets/Weapons/Turret.png
-  artifactKey: Guid(8a1e0cdaa385d8b4690e8e52bfc2bc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons/Turret.png using Guid(8a1e0cdaa385d8b4690e8e52bfc2bc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5220a3898a9e1316b28c81a3735d3973') in 0.029180 seconds 
-  Import took 0.032985 seconds .
+  Time since last request: 184.251616 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(e53e234bdbef8d74ea867c6e3215883b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(e53e234bdbef8d74ea867c6e3215883b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1b2e4d236830e7a91af336c8dd52cd') in 0.005870 seconds 
+  Import took 0.009110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1760.234908 seconds.
+  path: Assets/WallSpriteSheet.png
+  artifactKey: Guid(df1a80fe233c43045b3cafe753bea664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WallSpriteSheet.png using Guid(df1a80fe233c43045b3cafe753bea664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2286d6ee5869a0d80e1bafb817f8a347') in 0.060529 seconds 
+  Import took 0.063869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.763845 seconds.
+  path: Assets/WallSpriteSheet.png
+  artifactKey: Guid(df1a80fe233c43045b3cafe753bea664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WallSpriteSheet.png using Guid(df1a80fe233c43045b3cafe753bea664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0991a1e66483b1e47060f39aeef1cd') in 0.012611 seconds 
+  Import took 0.015738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 78.465630 seconds.
+  path: Assets/WallSpriteSheet.png
+  artifactKey: Guid(df1a80fe233c43045b3cafe753bea664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WallSpriteSheet.png using Guid(df1a80fe233c43045b3cafe753bea664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71697724cabf3dfaf4efa8c7670538de') in 0.036457 seconds 
+  Import took 0.039811 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
