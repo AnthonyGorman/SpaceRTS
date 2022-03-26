@@ -1,109 +1,109 @@
 fileFormatVersion: 2
-guid: 584ddd120e083034eb0c45c19ec8ed39
+guid: 87de766ff57e4b148a4d0a814113c5fd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1231675173294061193
-    second: AstromanSheet
+      213: 878231648899909546
+    second: Spaceman_0
   - first:
-      213: 1624828081627318784
-    second: Astronaut-Sheet_1
+      213: -171684179753474603
+    second: Spaceman_1
   - first:
-      213: 357369067016140372
-    second: Astronaut-Sheet_2
+      213: -6537749439990963932
+    second: Spaceman_2
   - first:
-      213: -7865453472202433895
-    second: Astronaut-Sheet_3
+      213: 8995580181597873655
+    second: Spaceman_3
   - first:
-      213: -7341847856794151370
-    second: Astronaut-Sheet_4
+      213: 2970715628161490538
+    second: Spaceman_4
   - first:
-      213: -3262361242566834984
-    second: Astronaut-Sheet_5
+      213: -5467982711564235117
+    second: Spaceman_5
   - first:
-      213: 594441241291974836
-    second: Astronaut-Sheet_6
+      213: 8123594141624722728
+    second: Spaceman_6
   - first:
-      213: 8598209362721028648
-    second: Astronaut-Sheet_7
+      213: 1186746683461661334
+    second: Spaceman_7
   - first:
-      213: -705751973346063286
-    second: Astronaut-Sheet_8
+      213: 6873032086453056626
+    second: Spaceman_8
   - first:
-      213: 4026105645402304458
-    second: Astronaut-Sheet_9
+      213: 4000157575236879337
+    second: Spaceman_9
   - first:
-      213: -3700922722060184149
-    second: Astronaut-Sheet_10
+      213: 5429091348372738728
+    second: Spaceman_10
   - first:
-      213: -5123310640380777929
-    second: Astronaut-Sheet_11
+      213: 8474430488908606559
+    second: Spaceman_11
   - first:
-      213: 7361168921793324940
-    second: Astronaut-Sheet_12
+      213: -2686886993457046708
+    second: Spaceman_12
   - first:
-      213: -56089492217043781
-    second: Astronaut-Sheet_13
+      213: -5438014820603643591
+    second: Spaceman_13
   - first:
-      213: -7794594423228981000
-    second: Astronaut-Sheet_14
+      213: -1870724913359746563
+    second: Spaceman_14
   - first:
-      213: 5692392743189178801
-    second: Astronaut-Sheet_15
+      213: -4097638332490641028
+    second: Spaceman_15
   - first:
-      213: -5516109772241383697
-    second: Astronaut-Sheet_16
+      213: -6499635459378712791
+    second: Spaceman_16
   - first:
-      213: -3360270147025152816
-    second: Astronaut-Sheet_17
+      213: -6756226936285466705
+    second: Spaceman_17
   - first:
-      213: 2000606036862053916
-    second: Astronaut-Sheet_18
+      213: -9025898165356919628
+    second: Spaceman_18
   - first:
-      213: -306843707143723685
-    second: Astronaut-Sheet_19
+      213: -6867230852298849190
+    second: Spaceman_19
   - first:
-      213: -3153611134525498386
-    second: Astronaut-Sheet_20
+      213: -844529287304306418
+    second: Spaceman_20
   - first:
-      213: -3197765752539358814
-    second: Astronaut-Sheet_21
+      213: -6196445284523550425
+    second: Spaceman_21
   - first:
-      213: 113684081359469895
-    second: Astronaut-Sheet_22
+      213: -3870790270262413230
+    second: Spaceman_22
   - first:
-      213: 1760498169534402229
-    second: Astronaut-Sheet_23
+      213: 6556417020575020024
+    second: Spaceman_23
   - first:
-      213: -8506646613026797371
-    second: Astronaut-Sheet_24
+      213: 8199662719701822686
+    second: Spaceman_24
   - first:
-      213: 2013977104392123332
-    second: Astronaut-Sheet_25
+      213: -6100490110040053289
+    second: Spaceman_25
   - first:
-      213: 3301393510953071978
-    second: Astronaut-Sheet_26
+      213: -5672433579543187379
+    second: Spaceman_26
   - first:
-      213: 5075817950796648066
-    second: Astronaut-Sheet_27
+      213: -3530104679103932868
+    second: Spaceman_27
   - first:
-      213: 6707896713043681146
-    second: Astronaut-Sheet_28
+      213: 1210544608331994269
+    second: Spaceman_28
   - first:
-      213: -3427196501980226676
-    second: Astronaut-Sheet_29
+      213: -4047555928973219406
+    second: Spaceman_29
   - first:
-      213: 5815698394703579634
-    second: Astronaut-Sheet_30
+      213: -6963625753833825144
+    second: Spaceman_30
   - first:
-      213: -3094989416044142674
-    second: Astronaut-Sheet_31
+      213: -3369947742915444644
+    second: Spaceman_31
   - first:
-      213: 7147787141906557593
-    second: Astronaut-Sheet_32
+      213: 6862833473515603283
+    second: Spaceman_32
   - first:
-      213: 6799091826041709020
-    second: Astronaut-Sheet_33
+      213: -5658486270921758746
+    second: Spaceman_33
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -193,7 +193,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: AstromanSheet
+      name: Spaceman_0
       rect:
         serializedVersion: 2
         x: 0
@@ -201,20 +201,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 779c321a4f538eee0800000000000000
-      internalID: -1231675173294061193
+      spriteID: aa74f27180b103c00800000000000000
+      internalID: 878231648899909546
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_1
+      name: Spaceman_1
       rect:
         serializedVersion: 2
         x: 16
@@ -222,20 +222,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 00ac972188c8c8610800000000000000
-      internalID: 1624828081627318784
+      spriteID: 5d56d3ce52e0e9df0800000000000000
+      internalID: -171684179753474603
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_2
+      name: Spaceman_2
       rect:
         serializedVersion: 2
         x: 32
@@ -243,20 +243,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 456b535e541a5f400800000000000000
-      internalID: 357369067016140372
+      spriteID: 42164d6d58f3545a0800000000000000
+      internalID: -6537749439990963932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_3
+      name: Spaceman_3
       rect:
         serializedVersion: 2
         x: 48
@@ -264,20 +264,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99ad2007dbb48d290800000000000000
-      internalID: -7865453472202433895
+      spriteID: 7f56fa8b388b6dc70800000000000000
+      internalID: 8995580181597873655
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_4
+      name: Spaceman_4
       rect:
         serializedVersion: 2
         x: 0
@@ -285,20 +285,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63652d4e5448c1a90800000000000000
-      internalID: -7341847856794151370
+      spriteID: a6e5441df1a1a3920800000000000000
+      internalID: 2970715628161490538
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_5
+      name: Spaceman_5
       rect:
         serializedVersion: 2
         x: 16
@@ -306,20 +306,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8d44dcf0cb3c9b2d0800000000000000
-      internalID: -3262361242566834984
+      spriteID: 39e8c37c1b2dd14b0800000000000000
+      internalID: -5467982711564235117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_6
+      name: Spaceman_6
       rect:
         serializedVersion: 2
         x: 32
@@ -327,20 +327,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4b8ec03d821ef3800800000000000000
-      internalID: 594441241291974836
+      spriteID: 8256cf6c4ddccb070800000000000000
+      internalID: 8123594141624722728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_7
+      name: Spaceman_7
       rect:
         serializedVersion: 2
         x: 48
@@ -348,20 +348,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82abc613cd9f25770800000000000000
-      internalID: 8598209362721028648
+      spriteID: 692fa1a22db287010800000000000000
+      internalID: 1186746683461661334
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_8
+      name: Spaceman_8
       rect:
         serializedVersion: 2
         x: 64
@@ -369,20 +369,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4c4d29c15aa436f0800000000000000
-      internalID: -705751973346063286
+      spriteID: 27475ea844ae16f50800000000000000
+      internalID: 6873032086453056626
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_9
+      name: Spaceman_9
       rect:
         serializedVersion: 2
         x: 80
@@ -390,20 +390,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acf2666d0c99fd730800000000000000
-      internalID: 4026105645402304458
+      spriteID: 9e30595fe1a638730800000000000000
+      internalID: 4000157575236879337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_10
+      name: Spaceman_10
       rect:
         serializedVersion: 2
         x: 96
@@ -411,20 +411,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba55e62846ea3acc0800000000000000
-      internalID: -3700922722060184149
+      spriteID: 8a257e811d1085b40800000000000000
+      internalID: 5429091348372738728
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_11
+      name: Spaceman_11
       rect:
         serializedVersion: 2
         x: 112
@@ -432,20 +432,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73aef16fd1856e8b0800000000000000
-      internalID: -5123310640380777929
+      spriteID: f5c232551a93b9570800000000000000
+      internalID: 8474430488908606559
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_12
+      name: Spaceman_12
       rect:
         serializedVersion: 2
         x: 128
@@ -453,20 +453,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c87e22b1220282660800000000000000
-      internalID: 7361168921793324940
+      spriteID: c4b1063e38246bad0800000000000000
+      internalID: -2686886993457046708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_13
+      name: Spaceman_13
       rect:
         serializedVersion: 2
         x: 144
@@ -474,20 +474,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb465cc67eab83ff0800000000000000
-      internalID: -56089492217043781
+      spriteID: 9393c9e155a4884b0800000000000000
+      internalID: -5438014820603643591
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_14
+      name: Spaceman_14
       rect:
         serializedVersion: 2
         x: 160
@@ -495,20 +495,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8f0223b6ba904d390800000000000000
-      internalID: -7794594423228981000
+      spriteID: df908b25a99d906e0800000000000000
+      internalID: -1870724913359746563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_15
+      name: Spaceman_15
       rect:
         serializedVersion: 2
         x: 176
@@ -516,20 +516,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b96dc35a017ffe40800000000000000
-      internalID: 5692392743189178801
+      spriteID: c711fd595a34227c0800000000000000
+      internalID: -4097638332490641028
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_16
+      name: Spaceman_16
       rect:
         serializedVersion: 2
         x: 192
@@ -537,20 +537,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: feecd734367d273b0800000000000000
-      internalID: -5516109772241383697
+      spriteID: 92fe23a7cf7acc5a0800000000000000
+      internalID: -6499635459378712791
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_17
+      name: Spaceman_17
       rect:
         serializedVersion: 2
         x: 208
@@ -558,20 +558,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0d45731da1ced51d0800000000000000
-      internalID: -3360270147025152816
+      spriteID: faf67c0c56f0d32a0800000000000000
+      internalID: -6756226936285466705
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_18
+      name: Spaceman_18
       rect:
         serializedVersion: 2
         x: 0
@@ -579,20 +579,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c1e2aa2479493cb10800000000000000
-      internalID: 2000606036862053916
+      spriteID: 4b40d0b90719db280800000000000000
+      internalID: -9025898165356919628
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_19
+      name: Spaceman_19
       rect:
         serializedVersion: 2
         x: 16
@@ -600,20 +600,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b55622a264fddbbf0800000000000000
-      internalID: -306843707143723685
+      spriteID: a54cf1a8ce1b2b0a0800000000000000
+      internalID: -6867230852298849190
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_20
+      name: Spaceman_20
       rect:
         serializedVersion: 2
         x: 32
@@ -621,20 +621,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eeb14e6b16f1c34d0800000000000000
-      internalID: -3153611134525498386
+      spriteID: e0120d37611a744f0800000000000000
+      internalID: -844529287304306418
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_21
+      name: Spaceman_21
       rect:
         serializedVersion: 2
         x: 48
@@ -642,20 +642,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2a95bf49df04f93d0800000000000000
-      internalID: -3197765752539358814
+      spriteID: 72954d908ddc10aa0800000000000000
+      internalID: -6196445284523550425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_22
+      name: Spaceman_22
       rect:
         serializedVersion: 2
         x: 64
@@ -663,20 +663,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74d3c06d113e39100800000000000000
-      internalID: 113684081359469895
+      spriteID: 25878fce1c0384ac0800000000000000
+      internalID: -3870790270262413230
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_23
+      name: Spaceman_23
       rect:
         serializedVersion: 2
         x: 80
@@ -684,20 +684,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5bec2d6f1cb8e6810800000000000000
-      internalID: 1760498169534402229
+      spriteID: 8f3f2b6fa821dfa50800000000000000
+      internalID: 6556417020575020024
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_24
+      name: Spaceman_24
       rect:
         serializedVersion: 2
         x: 96
@@ -705,20 +705,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5c802c0c9f152f980800000000000000
-      internalID: -8506646613026797371
+      spriteID: edc27d5cccd0bc170800000000000000
+      internalID: 8199662719701822686
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_25
+      name: Spaceman_25
       rect:
         serializedVersion: 2
         x: 112
@@ -726,20 +726,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4c3ff05818513fb10800000000000000
-      internalID: 2013977104392123332
+      spriteID: 7d967431194b65ba0800000000000000
+      internalID: -6100490110040053289
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_26
+      name: Spaceman_26
       rect:
         serializedVersion: 2
         x: 128
@@ -747,20 +747,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a65332c18e7e0dd20800000000000000
-      internalID: 3301393510953071978
+      spriteID: d40b45796b77741b0800000000000000
+      internalID: -5672433579543187379
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_27
+      name: Spaceman_27
       rect:
         serializedVersion: 2
         x: 0
@@ -768,20 +768,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28e09cd888de07640800000000000000
-      internalID: 5075817950796648066
+      spriteID: c36d0166f7c820fc0800000000000000
+      internalID: -3530104679103932868
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_28
+      name: Spaceman_28
       rect:
         serializedVersion: 2
         x: 16
@@ -789,20 +789,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a7f9af2458c371d50800000000000000
-      internalID: 6707896713043681146
+      spriteID: d94946458e7bcc010800000000000000
+      internalID: 1210544608331994269
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_29
+      name: Spaceman_29
       rect:
         serializedVersion: 2
         x: 32
@@ -810,20 +810,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8bd10480f62070d0800000000000000
-      internalID: -3427196501980226676
+      spriteID: 2b96605d35134d7c0800000000000000
+      internalID: -4047555928973219406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_30
+      name: Spaceman_30
       rect:
         serializedVersion: 2
         x: 48
@@ -831,20 +831,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2f9cd1980e285b050800000000000000
-      internalID: 5815698394703579634
+      spriteID: 88c19f1954b3c5f90800000000000000
+      internalID: -6963625753833825144
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_31
+      name: Spaceman_31
       rect:
         serializedVersion: 2
         x: 64
@@ -852,20 +852,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eaf581926836c05d0800000000000000
-      internalID: -3094989416044142674
+      spriteID: c5045efe16a8b31d0800000000000000
+      internalID: -3369947742915444644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_32
+      name: Spaceman_32
       rect:
         serializedVersion: 2
         x: 80
@@ -873,20 +873,20 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99ae173f88a023360800000000000000
-      internalID: 7147787141906557593
+      spriteID: 355ce8deeaead3f50800000000000000
+      internalID: 6862833473515603283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Astronaut-Sheet_33
+      name: Spaceman_33
       rect:
         serializedVersion: 2
         x: 96
@@ -894,14 +894,14 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd16a7e1ef93b5e50800000000000000
-      internalID: 6799091826041709020
+      spriteID: 6e7a84f67b40971b0800000000000000
+      internalID: -5658486270921758746
       vertices: []
       indices: 
       edges: []
