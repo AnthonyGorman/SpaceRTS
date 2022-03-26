@@ -15,11 +15,11 @@ C:/Users/Anthony/Painful RTS
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57468
+51193
 Successfully changed project path to: C:/Users/Anthony/Painful RTS
 C:/Users/Anthony/Painful RTS
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 41.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 41.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000979 seconds.
+Registered in 0.000987 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 43.02 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 45.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.468 seconds
+- Completed reload, in  0.471 seconds
 Domain Reload Profiling:
-	ReloadAssembly (468ms)
+	ReloadAssembly (471ms)
 		BeginReloadAssembly (38ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (372ms)
+		EndReloadAssembly (373ms)
 			LoadAssemblies (37ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (122ms)
+			SetupTypeCache (123ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (25ms)
-			SetupLoadedEditorAssemblies (147ms)
+			SetupLoadedEditorAssemblies (148ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (43ms)
+				RefreshPlugins (45ms)
 				BeforeProcessingInitializeOnLoad (7ms)
-				ProcessInitializeOnLoadAttributes (69ms)
+				ProcessInitializeOnLoadAttributes (68ms)
 				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -73,35 +73,35 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002979 seconds.
+Registered in 0.002998 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 42.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 41.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.899 seconds
+- Completed reload, in  0.898 seconds
 Domain Reload Profiling:
-	ReloadAssembly (900ms)
+	ReloadAssembly (898ms)
 		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (737ms)
-			LoadAssemblies (67ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (736ms)
+			LoadAssemblies (65ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (250ms)
+			SetupTypeCache (248ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (282ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (283ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (42ms)
-				BeforeProcessingInitializeOnLoad (55ms)
-				ProcessInitializeOnLoadAttributes (164ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
+				BeforeProcessingInitializeOnLoad (54ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -110,14 +110,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2197 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 95.8 MB.
 System memory in use after: 95.9 MB.
 
 Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2630.
-Total: 3.449300 ms (FindLiveObjects: 0.309700 ms CreateObjectMapping: 0.120200 ms MarkObjects: 2.952500 ms  DeleteObjects: 0.064700 ms)
+Total: 3.504600 ms (FindLiveObjects: 0.303100 ms CreateObjectMapping: 0.159100 ms MarkObjects: 2.977400 ms  DeleteObjects: 0.063200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -131,633 +131,225 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/XK1_Carrier.png
-  artifactKey: Guid(dad2d34f41cfbec40bb5923ad46f924a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/XK1_Carrier.png using Guid(dad2d34f41cfbec40bb5923ad46f924a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aabc99f01bf030bd131b66dbb35ceb53') in 0.073994 seconds 
-  Import took 0.077361 seconds .
+  path: Assets/2D Pixel Dungeon Asset Pack/Character_animation
+  artifactKey: Guid(634fb2b70d3bba8429c321df0b518d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Dungeon Asset Pack/Character_animation using Guid(634fb2b70d3bba8429c321df0b518d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9f8bf8d9a62ae85a326194a3519983') in 0.007374 seconds 
+  Import took 0.010287 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.362207 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack
-  artifactKey: Guid(15b10c058b987f648b7254891ff3514b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack using Guid(15b10c058b987f648b7254891ff3514b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0d03e0b5f8e7de4ec5f6e48e63d39b4') in 0.005608 seconds 
-  Import took 0.009837 seconds .
+  Time since last request: 0.000402 seconds.
+  path: Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle
+  artifactKey: Guid(1fbef0fdf4bd73d439b1725d382b526f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle using Guid(1fbef0fdf4bd73d439b1725d382b526f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9b7843b8cc1fb1742cee5d0a684417a') in 0.005623 seconds 
+  Import took 0.009713 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.028032 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/Dungeon_Character_at.png
-  artifactKey: Guid(85c78e85d5d98124ebb256c51fa0d59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/Dungeon_Character_at.png using Guid(85c78e85d5d98124ebb256c51fa0d59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbcfcbc9b2311fcfa571d985823cdc47') in 0.029061 seconds 
-  Import took 0.032520 seconds .
+  Time since last request: 0.387985 seconds.
+  path: Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2
+  artifactKey: Guid(dd56b805620c0ee4c89335207210b0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2 using Guid(dd56b805620c0ee4c89335207210b0da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa29bd25ab7c6f1b0132555b748ac28d') in 0.006115 seconds 
+  Import took 0.009265 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/Dungeon_gif.gif
-  artifactKey: Guid(77e2e261d4d9da843ae58e0a5b602edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/Dungeon_gif.gif using Guid(77e2e261d4d9da843ae58e0a5b602edd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c8e27d023daf71ddcc8b7647f2df34') in 0.039008 seconds 
-  Import took 0.043058 seconds .
+  Time since last request: 1.614952 seconds.
+  path: Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v1
+  artifactKey: Guid(0c2aa3670c14df742a2a3165a9f9688e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v1 using Guid(0c2aa3670c14df742a2a3165a9f9688e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83c9d149078192f66e340b54710848da') in 0.005031 seconds 
+  Import took 0.009085 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png
-  artifactKey: Guid(604ff6e77fa54b442ac65377d00a42aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/Dungeon_Tileset_at.png using Guid(604ff6e77fa54b442ac65377d00a42aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3fa38354d0bd45328a0a47c9cc9577') in 0.027536 seconds 
-  Import took 0.030249 seconds .
+  Time since last request: 0.091016 seconds.
+  path: Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v1/skeleton2_v1_1.png
+  artifactKey: Guid(eb9775d4c3a850c43a0fccb12ca29201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v1/skeleton2_v1_1.png using Guid(eb9775d4c3a850c43a0fccb12ca29201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c05061a8659fd42b58534fb63327d1') in 0.072200 seconds 
+  Import took 0.076357 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.576718 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/character and tileset
-  artifactKey: Guid(36681fb88a42eaf4a9f3d76ce68aa445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/character and tileset using Guid(36681fb88a42eaf4a9f3d76ce68aa445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a86d01c5c5eb708080e5a2fe454ab4e') in 0.004744 seconds 
-  Import took 0.008309 seconds .
+  Time since last request: 0.000299 seconds.
+  path: Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v1/skeleton2_v1_4.png
+  artifactKey: Guid(3f30d22ac17a77f4a8349b7325b379c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v1/skeleton2_v1_4.png using Guid(3f30d22ac17a77f4a8349b7325b379c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926c0561cbc2fce4bd7ff5b032365fd1') in 0.013774 seconds 
+  Import took 0.016631 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.096152 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/character and tileset/demonstration.png
-  artifactKey: Guid(673759fc1a342a14b8089de9fcf46099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/character and tileset/demonstration.png using Guid(673759fc1a342a14b8089de9fcf46099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd21f36374eca2dc5200c6b47176cb0fe') in 0.017639 seconds 
-  Import took 0.021481 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Character_2.png
-  artifactKey: Guid(343a9fea8f22d1548a09ce7487396b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Character_2.png using Guid(343a9fea8f22d1548a09ce7487396b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6ffb427f6b2b3370a25a721817b7786') in 0.029596 seconds 
-  Import took 0.032777 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Tileset.png
-  artifactKey: Guid(0b31a44160e4693408f83c0fe0425afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Tileset.png using Guid(0b31a44160e4693408f83c0fe0425afe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611ec6e8dae4b58083ce2c60058b12ea') in 0.034987 seconds 
-  Import took 0.038004 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Character.png
-  artifactKey: Guid(d62a52030ddd2ee4cb781c34d8f227ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/character and tileset/Dungeon_Character.png using Guid(d62a52030ddd2ee4cb781c34d8f227ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa738826084a3c0345fd4bdd8dd3214a') in 0.031038 seconds 
-  Import took 0.033831 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 317.787895 seconds.
-  path: Assets/floor.png
-  artifactKey: Guid(34e85b2fc4dbbd34d83bf131f18a5be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/floor.png using Guid(34e85b2fc4dbbd34d83bf131f18a5be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1feff8092086069fa8889b9ed5dfc531') in 0.032052 seconds 
-  Import took 0.035639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.786434 seconds.
-  path: Assets/floor.png
-  artifactKey: Guid(34e85b2fc4dbbd34d83bf131f18a5be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/floor.png using Guid(34e85b2fc4dbbd34d83bf131f18a5be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2553acc975840f7e04e314dade8cb973') in 0.027175 seconds 
-  Import took 0.030940 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.208685 seconds.
-  path: Assets/floor.png
-  artifactKey: Guid(34e85b2fc4dbbd34d83bf131f18a5be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/floor.png using Guid(34e85b2fc4dbbd34d83bf131f18a5be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9260a3ec21c8eaefe7e64e3aae2be3e7') in 0.008632 seconds 
-  Import took 0.011976 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.189519 seconds.
-  path: Assets/floor.png
-  artifactKey: Guid(34e85b2fc4dbbd34d83bf131f18a5be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/floor.png using Guid(34e85b2fc4dbbd34d83bf131f18a5be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02c008270a1ba3ee279f751cac84bf33') in 0.009501 seconds 
-  Import took 0.013030 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 149.178531 seconds.
-  path: Assets/floor.png
-  artifactKey: Guid(34e85b2fc4dbbd34d83bf131f18a5be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/floor.png using Guid(34e85b2fc4dbbd34d83bf131f18a5be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd7efc75d1a0db33653acd833c68729') in 0.017747 seconds 
-  Import took 0.021169 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 532.680787 seconds.
-  path: Assets/floor.asset
-  artifactKey: Guid(41f2e33d213275740a0e43bc640a0d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/floor.asset using Guid(41f2e33d213275740a0e43bc640a0d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '842a29584b069dbe408b270006d29ac3') in 0.031243 seconds 
-  Import took 0.034651 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 962.030025 seconds.
-  path: Assets/floor.png
-  artifactKey: Guid(34e85b2fc4dbbd34d83bf131f18a5be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/floor.png using Guid(34e85b2fc4dbbd34d83bf131f18a5be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93089aa797c837136eda7aa610df5058') in 0.032836 seconds 
-  Import took 0.036527 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 278.146275 seconds.
-  path: Assets/floor.png
-  artifactKey: Guid(34e85b2fc4dbbd34d83bf131f18a5be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/floor.png using Guid(34e85b2fc4dbbd34d83bf131f18a5be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e328c763132f5ddc48bee7a5b1cab2') in 0.023329 seconds 
-  Import took 0.026801 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 150.173120 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.006624 seconds 
-  Import took 0.010875 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 74.095479 seconds.
-  path: Assets/SpaceShip.png
-  artifactKey: Guid(22c8142420f66884fa2aef1067c984b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceShip.png using Guid(22c8142420f66884fa2aef1067c984b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e2fb408e353cc6c18852579ae8d719') in 0.031715 seconds 
-  Import took 0.036139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 308.087492 seconds.
-  path: Assets/SpaceShip.png
-  artifactKey: Guid(22c8142420f66884fa2aef1067c984b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceShip.png using Guid(22c8142420f66884fa2aef1067c984b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ea2d3f02a7886a96c3e87dce5b64534') in 0.028912 seconds 
-  Import took 0.032792 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 70.089060 seconds.
-  path: Assets/SpaceShip.png
-  artifactKey: Guid(22c8142420f66884fa2aef1067c984b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceShip.png using Guid(22c8142420f66884fa2aef1067c984b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da725c49cdcd46b9f6be2ca692f99e9') in 0.029859 seconds 
-  Import took 0.033839 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 552.879432 seconds.
-  path: Assets/Characters
-  artifactKey: Guid(6523ac9447a2c204bb6489f8b5bc315b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters using Guid(6523ac9447a2c204bb6489f8b5bc315b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07ab65e2f448e46bad50ebfe82ea7e67') in 0.005432 seconds 
-  Import took 0.009754 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.193985 seconds.
-  path: Assets/Characters/Astronaut-Sheet.png
-  artifactKey: Guid(584ddd120e083034eb0c45c19ec8ed39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Astronaut-Sheet.png using Guid(584ddd120e083034eb0c45c19ec8ed39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07561be7cfe9950c2fa4ce76b8ce2fca') in 0.014220 seconds 
-  Import took 0.017907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Characters/Modern Fantasy JRPG Character Sprites.png
-  artifactKey: Guid(98f72845d53d17a46b6d1b6530ecec3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Modern Fantasy JRPG Character Sprites.png using Guid(98f72845d53d17a46b6d1b6530ecec3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ac1d73c04a7fa894006608f8bddb74e') in 0.029112 seconds 
-  Import took 0.032011 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Characters/Modern Fantasy JRPG Character Sprites (transparent).png
-  artifactKey: Guid(a1d08ee04cf7ba54780f880f185d2425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Modern Fantasy JRPG Character Sprites (transparent).png using Guid(a1d08ee04cf7ba54780f880f185d2425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8209c5cfe040effb819ff808d1f699') in 0.032046 seconds 
-  Import took 0.034785 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 397.156371 seconds.
-  path: Assets/Characters/Astronaut-Sheet.png
-  artifactKey: Guid(584ddd120e083034eb0c45c19ec8ed39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Astronaut-Sheet.png using Guid(584ddd120e083034eb0c45c19ec8ed39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3772b9d964243bb504ed6de71d155e') in 0.012039 seconds 
-  Import took 0.015874 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 87.625179 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/interface/arrow_1.png
-  artifactKey: Guid(90c245e6d59176648b9f2804e27e1870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/interface/arrow_1.png using Guid(90c245e6d59176648b9f2804e27e1870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1be5c6530d99d85388a1f47fe4a904') in 0.016083 seconds 
-  Import took 0.019720 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000306 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/arrow/arrow_4.png
-  artifactKey: Guid(56819eb9f94c2094b9d893f55002488f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/arrow/arrow_4.png using Guid(56819eb9f94c2094b9d893f55002488f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6270ef3cf9dde445efe65f3fec8ce1e') in 0.014624 seconds 
-  Import took 0.018507 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/interface/arrow_2.png
-  artifactKey: Guid(745d58f3e3c2a9d4bba5244b5c530e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/interface/arrow_2.png using Guid(745d58f3e3c2a9d4bba5244b5c530e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb65aba641fa813a7ce3bd7cca85658') in 0.034810 seconds 
-  Import took 0.038375 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/arrow/arrow_3.png
-  artifactKey: Guid(7b8159d35c07faf4884ef3ebff0600b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/arrow/arrow_3.png using Guid(7b8159d35c07faf4884ef3ebff0600b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9acd8ffca096c598a068195b4d0e27a8') in 0.023590 seconds 
-  Import took 0.026356 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/arrow/arrow_1.png
-  artifactKey: Guid(714a36993d8b93a45a1285688bc7e48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/arrow/arrow_1.png using Guid(714a36993d8b93a45a1285688bc7e48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97da8428a7aabf41203858bd61790de3') in 0.021813 seconds 
-  Import took 0.025177 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/interface/arrow_4.png
-  artifactKey: Guid(bcaec61a603589f49b942a66642962e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/interface/arrow_4.png using Guid(bcaec61a603589f49b942a66642962e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398cd4158535e3f04b67a0889425f1e7') in 0.008250 seconds 
-  Import took 0.011408 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000239 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/arrow/arrow_2.png
-  artifactKey: Guid(337b3fa0777347d458000c76d2505176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/arrow/arrow_2.png using Guid(337b3fa0777347d458000c76d2505176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a75cf5494070305f8bc462d0ba46b25') in 0.009621 seconds 
-  Import took 0.012645 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000233 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/interface/arrow_3.png
-  artifactKey: Guid(a6249e17b7a2224479fd71fd2dc48ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/interface/arrow_3.png using Guid(a6249e17b7a2224479fd71fd2dc48ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b88baf807a9140ede92b1dbc983625') in 0.009315 seconds 
-  Import took 0.012761 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.919447 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/box_1/box_1_1.png
-  artifactKey: Guid(b14b807a60a46b2489b2d41d37f85912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/box_1/box_1_1.png using Guid(b14b807a60a46b2489b2d41d37f85912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6137105d0f92982194a630d1c37e6742') in 0.018373 seconds 
-  Import took 0.022345 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/box_1/box_1_2.png
-  artifactKey: Guid(aa33e9db2216ed24ba51378ec478a1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/box_1/box_1_2.png using Guid(aa33e9db2216ed24ba51378ec478a1a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b268f8a62a07717f9aac19eb1e05faad') in 0.011937 seconds 
-  Import took 0.015112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.008845 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/box_1/box_1_3.png
-  artifactKey: Guid(796987966dabc8646b6b4ab7782cb597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/box_1/box_1_3.png using Guid(796987966dabc8646b6b4ab7782cb597) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a0e79511c51023ab799c53ba6ae25b1') in 0.015255 seconds 
-  Import took 0.019212 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/box_1/box_1_4.png
-  artifactKey: Guid(0fc8ae26aa750e742b4f16dd68be43cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/box_1/box_1_4.png using Guid(0fc8ae26aa750e742b4f16dd68be43cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3223c3e719e56c17fef40e7b209e81e') in 0.011040 seconds 
-  Import took 0.014532 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.276305 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/box_2/box_2_1.png
-  artifactKey: Guid(6d040cc4666e86345bc1994cf5222b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/box_2/box_2_1.png using Guid(6d040cc4666e86345bc1994cf5222b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2d2236ed046463444ddcdda92726809') in 0.018132 seconds 
-  Import took 0.021732 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/box_2/box_2_2.png
-  artifactKey: Guid(301abf0eb80d2cf4f905f44f7a72a577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/box_2/box_2_2.png using Guid(301abf0eb80d2cf4f905f44f7a72a577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc986906c430e7c65cbf1793253879aa') in 0.012355 seconds 
-  Import took 0.016272 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/box_2/box_2_3.png
-  artifactKey: Guid(52ce9386036733846a9762284e37dcb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/box_2/box_2_3.png using Guid(52ce9386036733846a9762284e37dcb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d33bc825f990a4aff7eb38ec7860627') in 0.015647 seconds 
-  Import took 0.018832 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/box_2/box_2_4.png
-  artifactKey: Guid(02db6d95c02cea146bdb7a0c57bdb442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/box_2/box_2_4.png using Guid(02db6d95c02cea146bdb7a0c57bdb442) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89787eed7fd9a27d7528d65ba75be689') in 0.012665 seconds 
-  Import took 0.015694 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.115595 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/candlestick_1_1.png
-  artifactKey: Guid(8cb4d926f50d36b479620c81cd0a22e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/candlestick_1_1.png using Guid(8cb4d926f50d36b479620c81cd0a22e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b93942711d4de1061a67614d9bcdf25c') in 0.012338 seconds 
-  Import took 0.016477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/candlestick_1_2.png
-  artifactKey: Guid(d0bb8f1a308686040aa90cc7bce9174d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/candlestick_1_2.png using Guid(d0bb8f1a308686040aa90cc7bce9174d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf445c311c26528bd50e344fbf2ad7d5') in 0.012488 seconds 
-  Import took 0.015772 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.122038 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/candlestick_1_3.png
-  artifactKey: Guid(65126ab042bda9043a60ad6073a604fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/candlestick_1_3.png using Guid(65126ab042bda9043a60ad6073a604fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da60eca834f719dc7ddf0384f25db6d') in 0.014120 seconds 
-  Import took 0.017589 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000283 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/candlestick_1_4.png
-  artifactKey: Guid(0751c4fd94fb89a42b4f4b32d9324c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/candlestick_1_4.png using Guid(0751c4fd94fb89a42b4f4b32d9324c0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea24dd2d53aac451e31996bd707aea5') in 0.012276 seconds 
-  Import took 0.015216 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.027297 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/candlestick_2_1.png
-  artifactKey: Guid(4c13447fdb3b68d42835d35ab424c52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/candlestick_2_1.png using Guid(4c13447fdb3b68d42835d35ab424c52e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b5de0013c9b3129c13b92f04c3cb31') in 0.015273 seconds 
-  Import took 0.019502 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/candlestick_2_2.png
-  artifactKey: Guid(57443905b7e1ba14f82c4bbd1638641a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/candlestick_2_2.png using Guid(57443905b7e1ba14f82c4bbd1638641a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8750663275b199a8ac9bc2dee5be6db5') in 0.014137 seconds 
-  Import took 0.017105 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.126891 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/candlestick_2_3.png
-  artifactKey: Guid(e03674a764ed18246a2713bfb452516d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/candlestick_2_3.png using Guid(e03674a764ed18246a2713bfb452516d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dccd089c70e4d7037a2dd3f437496143') in 0.011432 seconds 
-  Import took 0.015454 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/candlestick_2_4.png
-  artifactKey: Guid(1f044604088023e448191d2684662cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/torch/candlestick_2_4.png using Guid(1f044604088023e448191d2684662cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86de66e55da94d160a2740889430a14e') in 0.013394 seconds 
-  Import took 0.016317 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.072635 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/chest/chest_1.png
-  artifactKey: Guid(cbac41b88c535d9469d65f75bcdf93f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/chest/chest_1.png using Guid(cbac41b88c535d9469d65f75bcdf93f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16f0a4c1103e16df7118b30875eefbbf') in 0.011928 seconds 
-  Import took 0.015754 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/chest/chest_2.png
-  artifactKey: Guid(7b9a960415947884295e4d91e961074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/chest/chest_2.png using Guid(7b9a960415947884295e4d91e961074e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '353582607c084158762f9ba801a6bd34') in 0.015478 seconds 
-  Import took 0.018401 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/chest/chest_3.png
-  artifactKey: Guid(89471584a4fb6924c992f6ab7226b590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/chest/chest_3.png using Guid(89471584a4fb6924c992f6ab7226b590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fac49c354a2abd45c26c0bf772d1f2e0') in 0.023182 seconds 
-  Import took 0.026393 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000206 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/chest/chest_4.png
-  artifactKey: Guid(303842fcfc6dc9349a5882f5319dd31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/chest/chest_4.png using Guid(303842fcfc6dc9349a5882f5319dd31c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88bbb04f4a66b96749ef593f37a9e025') in 0.018222 seconds 
-  Import took 0.021087 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.021903 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/chest/chest_open_1.png
-  artifactKey: Guid(09e032f18100ad74d92d786f02f4d7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/chest/chest_open_1.png using Guid(09e032f18100ad74d92d786f02f4d7a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4c846ecac671ff3ac0a3c00a432b9aa') in 0.028331 seconds 
-  Import took 0.032060 seconds .
+  Time since last request: 0.000275 seconds.
+  path: Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v1/skeleton2_v1_3.png
+  artifactKey: Guid(7fe9c693e416b0641970f623d237cd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v1/skeleton2_v1_3.png using Guid(7fe9c693e416b0641970f623d237cd84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '162c6592845172ae8f6add5379e73aa7') in 0.036225 seconds 
+  Import took 0.039362 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000223 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/chest/chest_open_2.png
-  artifactKey: Guid(753b3c5899550dd42bbc73c98211ce20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/chest/chest_open_2.png using Guid(753b3c5899550dd42bbc73c98211ce20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85805d064810258ad16a0aa8fb2eb97d') in 0.040855 seconds 
-  Import took 0.043971 seconds .
+  path: Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v1/skeleton2_v1_2.png
+  artifactKey: Guid(d432638bf6b841d48bffcca6c29b22aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Pixel Dungeon Asset Pack/Character_animation/monsters_idle/skeleton2/v1/skeleton2_v1_2.png using Guid(d432638bf6b841d48bffcca6c29b22aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e63a96054a31862edec547f8172af4d') in 0.013139 seconds 
+  Import took 0.016175 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.163200 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/chest/chest_open_3.png
-  artifactKey: Guid(a4d9f00125e6e4b4c8e66874a6a75316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/chest/chest_open_3.png using Guid(a4d9f00125e6e4b4c8e66874a6a75316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c325d901ad5d5c31e4979a96048eea3a') in 0.010877 seconds 
-  Import took 0.014151 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/chest/chest_open_4.png
-  artifactKey: Guid(7dbe4ec96e235bd4ebbace607873ae86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/chest/chest_open_4.png using Guid(7dbe4ec96e235bd4ebbace607873ae86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee3a9d64e727db2b3fbfb483e029716') in 0.011274 seconds 
-  Import took 0.014664 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/coin/coin_2.png
-  artifactKey: Guid(d60273cef01acdb418e80218211fa013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/coin/coin_2.png using Guid(d60273cef01acdb418e80218211fa013) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c364a7df9b2f63132837b552fea6cde5') in 0.013474 seconds 
-  Import took 0.016888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/coin/coin_1.png
-  artifactKey: Guid(5f80a30c6edc5ea4795e0beb8c1c635a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/coin/coin_1.png using Guid(5f80a30c6edc5ea4795e0beb8c1c635a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e071d9691ff23b784ac17a1c8010445') in 0.011198 seconds 
-  Import took 0.014363 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/coin/coin_4.png
-  artifactKey: Guid(3cc3c1536c4ead643bfcec778d7e6fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/coin/coin_4.png using Guid(3cc3c1536c4ead643bfcec778d7e6fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32086c81d52eba195349dbc656219ca2') in 0.011560 seconds 
-  Import took 0.014830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/coin/coin_3.png
-  artifactKey: Guid(b659d1b59d943e04b806acb1bf5877d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/coin/coin_3.png using Guid(b659d1b59d943e04b806acb1bf5877d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8647c77a834bd950da66e0c3af8c4b') in 0.010932 seconds 
-  Import took 0.014115 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.735230 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flamethrower/flamethrower_2_3.png
-  artifactKey: Guid(107d85ae984abc74785c9df53165ed74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flamethrower/flamethrower_2_3.png using Guid(107d85ae984abc74785c9df53165ed74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c5b7d030acaf639454903d706204c52') in 0.013917 seconds 
-  Import took 0.017649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000344 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_2_2.png
-  artifactKey: Guid(9d99e6cc497c21248b103a8d7254422b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_2_2.png using Guid(9d99e6cc497c21248b103a8d7254422b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ef985ac6c01ff0705a09e30bd10eee') in 0.012283 seconds 
-  Import took 0.016054 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_1_4.png
-  artifactKey: Guid(6e6860eaa068fb943b06b95152c77623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_1_4.png using Guid(6e6860eaa068fb943b06b95152c77623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d2cb7b1cf3b0f3d6c8479f8355ecf26') in 0.041980 seconds 
-  Import took 0.044985 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000429 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_1_2.png
-  artifactKey: Guid(736e262328ed66d4592ed0fedc04fca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_1_2.png using Guid(736e262328ed66d4592ed0fedc04fca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf98abc368be9e7d6ecda28fdd5d7c1c') in 0.014198 seconds 
-  Import took 0.017274 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_2_3.png
-  artifactKey: Guid(be6a48411ab85af4c9420bb757b2f1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_2_3.png using Guid(be6a48411ab85af4c9420bb757b2f1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91b5c4b4cb61b2c338163598d9f0756d') in 0.024711 seconds 
-  Import took 0.027777 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000242 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_1_1.png
-  artifactKey: Guid(295b538f82b065341aa4ff1bffee2b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_1_1.png using Guid(295b538f82b065341aa4ff1bffee2b1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29981296b07d6c6fbcb49f978fa0f6d0') in 0.024924 seconds 
-  Import took 0.027820 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_2_1.png
-  artifactKey: Guid(3287e02a2bec27f40a56381da51cd67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_2_1.png using Guid(3287e02a2bec27f40a56381da51cd67a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb6f767c34debf856abfc12d9862d93b') in 0.014250 seconds 
-  Import took 0.017517 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flamethrower/flamethrower_2_4.png
-  artifactKey: Guid(3f864a137048e294ba72dc1e5321b7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flamethrower/flamethrower_2_4.png using Guid(3f864a137048e294ba72dc1e5321b7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b132fd9960548c8d60c4eaafbee9c7') in 0.011520 seconds 
-  Import took 0.014631 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_1_3.png
-  artifactKey: Guid(e1e122ef58bd3a048bf1279f042b1efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_1_3.png using Guid(e1e122ef58bd3a048bf1279f042b1efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1c77010ba1d952cc4cbf81ebe13393') in 0.032635 seconds 
-  Import took 0.036097 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.080652 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_4_2.png
-  artifactKey: Guid(987f09bba4d63f7408bb07eabde30447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_4_2.png using Guid(987f09bba4d63f7408bb07eabde30447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7253b427196b81591d086fde6944ee9f') in 0.012477 seconds 
-  Import took 0.016572 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_4_4.png
-  artifactKey: Guid(396376365d3483f4ba99a81c21059dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_4_4.png using Guid(396376365d3483f4ba99a81c21059dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a67aa7dd84739ba2d5164b25efdfa574') in 0.011395 seconds 
-  Import took 0.015330 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_4_3.png
-  artifactKey: Guid(e5c8292f31459e44cba0da49787a9943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_4_3.png using Guid(e5c8292f31459e44cba0da49787a9943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8be0e1bf7ab8be175636ab30d61c3278') in 0.011133 seconds 
-  Import took 0.014552 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.224536 seconds.
-  path: Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_2_4.png
-  artifactKey: Guid(92dabdcf78a93c942897b02fab691906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/2D Pixel Dungeon Asset Pack/items and trap_animation/flasks/flasks_2_4.png using Guid(92dabdcf78a93c942897b02fab691906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe700bde1f199770bf66d443b94e167') in 0.018724 seconds 
-  Import took 0.022071 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 82.369103 seconds.
-  path: Assets/Characters/Astronaut-Sheet.png
+  Time since last request: 585.345316 seconds.
+  path: Assets/Astronaut-Sheet.png
   artifactKey: Guid(584ddd120e083034eb0c45c19ec8ed39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Characters/Astronaut-Sheet.png using Guid(584ddd120e083034eb0c45c19ec8ed39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7318507c0b56a2e0fd7249eb2207f6c4') in 0.008488 seconds 
-  Import took 0.011906 seconds .
+Start importing Assets/Astronaut-Sheet.png using Guid(584ddd120e083034eb0c45c19ec8ed39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a5108b155f23be70177ab9e2cc78159') in 0.037280 seconds 
+  Import took 0.041260 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.574511 seconds.
-  path: Assets/SpaceShip.png
-  artifactKey: Guid(22c8142420f66884fa2aef1067c984b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpaceShip.png using Guid(22c8142420f66884fa2aef1067c984b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fbf680ffc519e9be99c06ee9d503a85') in 0.028953 seconds 
-  Import took 0.032439 seconds .
+  Time since last request: 141.044527 seconds.
+  path: Assets/Astronaut-Sheet.png
+  artifactKey: Guid(584ddd120e083034eb0c45c19ec8ed39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Astronaut-Sheet.png using Guid(584ddd120e083034eb0c45c19ec8ed39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d8dcc1d5651887fab67d985be4cc1e5') in 0.129965 seconds 
+  Import took 0.133943 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.978230 seconds.
-  path: Assets/floor.png
-  artifactKey: Guid(34e85b2fc4dbbd34d83bf131f18a5be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/floor.png using Guid(34e85b2fc4dbbd34d83bf131f18a5be5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1760920ae61163dcda833d99257c8c4a') in 0.022182 seconds 
-  Import took 0.026103 seconds .
+  Time since last request: 64.453116 seconds.
+  path: Assets/Astronaut-Sheet.png
+  artifactKey: Guid(584ddd120e083034eb0c45c19ec8ed39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Astronaut-Sheet.png using Guid(584ddd120e083034eb0c45c19ec8ed39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da665aa1d7ffa34db5ecd8eee908d71b') in 0.136216 seconds 
+  Import took 0.139757 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002783 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.811 seconds
+Domain Reload Profiling:
+	ReloadAssembly (812ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (668ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (241ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (238ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (174ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2186 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.1 MB.
+System memory in use after: 98.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 2640.
+Total: 3.704100 ms (FindLiveObjects: 0.228000 ms CreateObjectMapping: 0.047700 ms MarkObjects: 3.407800 ms  DeleteObjects: 0.019100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1252.262674 seconds.
+  path: Assets/Characters/Brute.png
+  artifactKey: Guid(1b9ae517a43f89f4487dd7d002546aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Brute.png using Guid(1b9ae517a43f89f4487dd7d002546aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2569690c87186399ed79ea8a0ae92445') in 0.052738 seconds 
+  Import took 0.056190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/Characters/ScaryAlien.png
+  artifactKey: Guid(42866a5b87f8f0841b010b986361cbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ScaryAlien.png using Guid(42866a5b87f8f0841b010b986361cbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1a47dc252f30fa759fe0bb3eddb6b70') in 0.018871 seconds 
+  Import took 0.022443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.069624 seconds.
+  path: Assets/Characters/Brute.png
+  artifactKey: Guid(1b9ae517a43f89f4487dd7d002546aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Brute.png using Guid(1b9ae517a43f89f4487dd7d002546aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00f3947e9aca39188d344d0e0fd93b82') in 0.010718 seconds 
+  Import took 0.014719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.184834 seconds.
+  path: Assets/Characters/Brute.png
+  artifactKey: Guid(1b9ae517a43f89f4487dd7d002546aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/Brute.png using Guid(1b9ae517a43f89f4487dd7d002546aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4d00407fb66b8ac55158cec51900a7b') in 0.082882 seconds 
+  Import took 0.086909 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.627427 seconds.
+  path: Assets/Characters/ScaryAlien.png
+  artifactKey: Guid(42866a5b87f8f0841b010b986361cbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ScaryAlien.png using Guid(42866a5b87f8f0841b010b986361cbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5067e7452f55f3b1137ab7cdf85ffd0') in 0.008873 seconds 
+  Import took 0.012902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.065807 seconds.
+  path: Assets/Characters/ScaryAlien.png
+  artifactKey: Guid(42866a5b87f8f0841b010b986361cbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Characters/ScaryAlien.png using Guid(42866a5b87f8f0841b010b986361cbdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd22118339ba0353fad35e7d3a07c183') in 0.077524 seconds 
+  Import took 0.080686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2539.149327 seconds.
+  path: Assets/Weapons
+  artifactKey: Guid(00e91cc8d2ddaca49a92fee9ded845dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons using Guid(00e91cc8d2ddaca49a92fee9ded845dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b0de56d278b42c8975acb2ca606d61') in 0.005653 seconds 
+  Import took 0.009621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058068 seconds.
+  path: Assets/Weapons/Shooter_sprites.png
+  artifactKey: Guid(1b6994541fb9b384ba2a70f849a2ad4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Shooter_sprites.png using Guid(1b6994541fb9b384ba2a70f849a2ad4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40cc4499c0d6f1985736c77f417ffac7') in 0.022019 seconds 
+  Import took 0.025825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Weapons/Turret.png
+  artifactKey: Guid(8a1e0cdaa385d8b4690e8e52bfc2bc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Turret.png using Guid(8a1e0cdaa385d8b4690e8e52bfc2bc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04bd0af0c267a05b3f08f4e4153654a') in 0.011595 seconds 
+  Import took 0.015135 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.491440 seconds.
+  path: Assets/Weapons/Turret.png
+  artifactKey: Guid(8a1e0cdaa385d8b4690e8e52bfc2bc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Weapons/Turret.png using Guid(8a1e0cdaa385d8b4690e8e52bfc2bc3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5220a3898a9e1316b28c81a3735d3973') in 0.029180 seconds 
+  Import took 0.032985 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
