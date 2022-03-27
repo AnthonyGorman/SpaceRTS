@@ -54,15 +54,24 @@
   </PropertyGroup>
   <ItemGroup>
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Users\ariou\source\repos\SpaceRTS\SpaceRTS\Assets\Frameworks\FSharp.Core.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\UIs\PlayerManagement.cs" />
-    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\FlipSpriteToMatchMovement.cs" />
+    <Compile Include="Assets\Scripts\BuilderBehaviour.cs" />
+    <Compile Include="Assets\Scripts\GameState.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\UIs\CameraMovement.cs" />
+    <Compile Include="Assets\Scripts\StructureBehaviour.cs" />
+    <Compile Include="Assets\Scripts\TestBuilder.cs" />
+    <Compile Include="Assets\Scripts\Entity.cs" />
+    <Compile Include="Assets\Scripts\MovableEntity.cs" />
+    <Compile Include="Assets\Scripts\BuilderManager.cs" />
+    <Compile Include="Assets\UIs\BuilderGUI.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\UIs\PlayerManagement.uss" />
-    <None Include="Assets\UIs\PlayerManagement.uxml" />
+    <None Include="Assets\GameLogic.dll" />
+    <None Include="Assets\Frameworks\FSharp.Core.dll" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -286,6 +295,12 @@
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.32f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="GameLogic">
+      <HintPath>Assets\GameLogic.dll</HintPath>
+    </Reference>
+    <Reference Include="FSharp.Core">
+      <HintPath>Assets\Frameworks\FSharp.Core.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.32f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>

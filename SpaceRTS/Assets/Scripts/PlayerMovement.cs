@@ -8,19 +8,33 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D playerBody;
 
     public Vector3 targetPosition;
+    public Vector3 change;
 
-    // Start is called before the first frame update
+    public Animator animator;
+
     void Start()
     {
         playerBody = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+
         playerBody.gravityScale = 0;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        Vector3 change = (transform.position - targetPosition).normalized;
-
-        playerBody.MovePosition(transform.position + change * speed * Time.deltaTime);
+        change = new Vector3
+        {
+            x = Input.GetAxisRaw("Horizontal"),
+            y = Input.GetAxisRaw("Vertical")
+        };
+        if (change.magnitude > 0.1)
+        {
+            playerBody.MovePosition(transform.position + change * speed * Time.deltaTime);
+            animator.enabled = true;
+        }
+        else
+        {
+            animator.enabled = false;
+        }
     }
 }
