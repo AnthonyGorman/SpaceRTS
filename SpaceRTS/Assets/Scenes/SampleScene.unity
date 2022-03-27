@@ -133,7 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 208685571}
   - component: {fileID: 208685572}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Bullets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -216,7 +216,7 @@ GameObject:
   m_Component:
   - component: {fileID: 258456636}
   - component: {fileID: 258456637}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Point Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -278,6 +278,36 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!1 &276676466
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 276676467}
+  m_Layer: 0
+  m_Name: WayPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &276676467
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276676466}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &308298920
 GameObject:
   m_ObjectHideFlags: 0
@@ -487,7 +517,7 @@ GameObject:
   m_Component:
   - component: {fileID: 582584015}
   - component: {fileID: 582584016}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Point Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -560,7 +590,7 @@ GameObject:
   - component: {fileID: 634228724}
   - component: {fileID: 634228723}
   - component: {fileID: 634228725}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Spaceman
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19104,7 +19134,7 @@ GameObject:
   m_Component:
   - component: {fileID: 819066230}
   - component: {fileID: 819066229}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19187,7 +19217,7 @@ GameObject:
   m_Component:
   - component: {fileID: 853479149}
   - component: {fileID: 853479150}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Point Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19386,7 +19416,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1088017966}
   - component: {fileID: 1088017965}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: SpaceShip
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19469,7 +19499,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1115633161}
   - component: {fileID: 1115633160}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Walls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19685,7 +19715,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1883995620}
   - component: {fileID: 1883995621}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Point Light 2D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19758,6 +19788,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ScaryAlien
       objectReference: {fileID: 0}
+    - target: {fileID: 2040384683593195968, guid: 2bdab9c7a8a33054588282450e95515a, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2040384683593195970, guid: 2bdab9c7a8a33054588282450e95515a, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -19811,9 +19845,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2259396132239347917, guid: d68328e17e3f02b4e80d9323353399c9, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4027812516927050104, guid: d68328e17e3f02b4e80d9323353399c9, type: 3}
       propertyPath: m_Name
       value: Brute
+      objectReference: {fileID: 0}
+    - target: {fileID: 4027812516927050104, guid: d68328e17e3f02b4e80d9323353399c9, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4027812516927050106, guid: d68328e17e3f02b4e80d9323353399c9, type: 3}
       propertyPath: m_RootOrder
