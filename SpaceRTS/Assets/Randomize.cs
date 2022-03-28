@@ -27,6 +27,6 @@ public class Randomize : MonoBehaviour
         transform.position = new Vector3(h, v, 0);
 
         //output to log the position change
-        Debug.Log(transform.position);
+        //Debug.Log(transform.position);
     }
 }

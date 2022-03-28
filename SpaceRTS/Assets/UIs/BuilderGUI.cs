@@ -3,7 +3,7 @@ using UnityEditor;
 
 using GameLogic;
 
-[CustomEditor(typeof(BuilderBehaviour))]
+/*[CustomEditor(typeof(BuilderBehaviour))]
 public class BuilderGUI : Editor
 {
     public override void OnInspectorGUI()
@@ -16,4 +16,4 @@ public class BuilderGUI : Editor
 
         EditorGUILayout.LabelField("Current action: ", BuilderLogic.displayCurrentAction(behaviour.currentAction));
     }
-}
+}*/
