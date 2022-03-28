@@ -67,9 +67,11 @@
     <Compile Include="Assets\UIs\BuilderGUI.cs" />
     <Compile Include="Assets\Scripts\Entity.cs" />
     <Compile Include="Assets\Scripts\GameState.cs" />
+    <Compile Include="Assets\EnemyAI.cs" />
     <Compile Include="Assets\Scripts\StructureBehaviour.cs" />
     <Compile Include="Assets\Randomize.cs" />
-    <Compile Include="Assets\EnemyAI.cs" />
+    <Compile Include="Assets\Play.cs" />
+    <Compile Include="Assets\Turret.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GameLogic.dll" />
