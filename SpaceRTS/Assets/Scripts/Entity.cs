@@ -22,7 +22,7 @@ public abstract class Entity : MonoBehaviour, IEntity
 
     public virtual void Start()
     {
-        gameState = GameObject.Find("GameState").GetComponent<GameState>();
+        gameState = GameObject.Find("/GameState").GetComponent<GameState>();
         rigidBody = GetComponent<Rigidbody2D>();
     }
 

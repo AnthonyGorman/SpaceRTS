@@ -22,6 +22,7 @@ module BuilderLogic =
         | MovingTo of Vector3
         | Build of BuildState
         | Repair of RepairState
+        | PickupMoney of string * Vector3
 
     let displayCurrentAction (action : Action) : string =
         match action with
@@ -33,6 +34,7 @@ module BuilderLogic =
         | Repair r -> $"Repairing: " + (match r with
                                         | MovingToRepair st -> $"Moving to {st.name} ({st.position.x}, {st.position.y})"
                                         | Repairing st -> $"Repairing {st.name}")
+        | PickupMoney (name, pos) -> $"Picking up money from {pos.x}, {pos.y}"
 
     let getNewBuildProgress (structure : IStructure) : BuildProgress * float32 =
         match structure.buildProgress with
@@ -48,7 +50,7 @@ module BuilderLogic =
         if (pos - entity.position).magnitude < 0.01f
             then true
             else
-                (entity.position - pos).normalized * entity.speed
+                (pos - entity.position).normalized * entity.speed
                     |> entity.setVelocity
                 false
 
@@ -74,6 +76,11 @@ module BuilderLogic =
                     else MovingToRepair structure
             | Repairing structure -> Repairing structure)
                 |> Repair
+        | PickupMoney (name, pos) ->
+            if name = targetName
+                then builder.globalState.giveMoney 50s
+                     Idle
+                else PickupMoney (name, pos)
 
     let handleCollisionLeave (state : Action) (builder : IBuilder) (targetName : string) : Action =
         match state with
@@ -95,6 +102,7 @@ module BuilderLogic =
                     then MovingToRepair structure
                     else Repairing structure)
                 |> Repair
+        | PickupMoney (name, pos) -> PickupMoney (name, pos)
 
     let applyBuilderAction (state : Action) (builder : IBuilder) : Action =
         match state with
@@ -102,8 +110,15 @@ module BuilderLogic =
 
         | MovingTo pos ->
             if moveTo pos builder
-                then Idle
+                then builder.setVelocity Vector3.zero
+                     Idle
                 else MovingTo pos
+
+        | PickupMoney (name, pos) ->
+            if moveTo pos builder
+                then builder.setVelocity Vector3.zero
+                     Idle
+                else PickupMoney (name, pos)
 
         | Build buildState ->
             match buildState with
@@ -140,4 +155,47 @@ module BuilderLogic =
                     else structure.health + structure.buildSpeed * 0.5f * structure.maxHealth
                             |> structure.setHealth
                          Repairing structure |> Repair
+
+    let handleMouseDown (builder : IBuilder) =
+        if Input.GetKey KeyCode.LeftShift
+            then builder.globalState.selectAnotherBuilder builder
+            else builder.globalState.selectBuilder builder
+
+module StructureLogic =
+    let handleMouseOver (structure : IStructure) =
+        if Input.GetMouseButtonDown 1
+            then match structure.buildProgress with
+                 | Done -> if structure.health < structure.maxHealth
+                               then structure.globalState.dispatchRepair structure
+                 | InProgress _ -> structure.globalState.dispatchBuild structure
+                 | Foundation -> structure.globalState.dispatchBuild structure
+
+module GameScale =
+    let handleUpdate (globalState : IGlobalState) =
+        if Input.GetMouseButtonDown 1 
+           then let mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition)
+                               |> Vector2.op_Implicit
+                let hit = Physics2D.Raycast(mousePos, Vector2.zero)
+                if hit.collider = null
+                   then globalState.dispatchMove mousePos
+
+        if Input.GetMouseButtonDown 0
+           then let mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition)
+                               |> Vector2.op_Implicit
+                let hit = Physics2D.Raycast(mousePos, Vector2.zero)
+                if hit.collider = null
+                   then globalState.selectBuilders []
+
+module ButtonLogic =
+    let shouldButtonBeEnabled (purchaseCost : int16) (globalState : IGlobalState) : bool =
+        globalState.currentMoney > purchaseCost && globalState.getBuilders.Length > 0
+
+module MoneyLogic =
+    let handleMouseOver (name : string) (position : Vector3) (globalState : IGlobalState) =
+        if Input.GetMouseButtonDown 1 then
+            globalState.dispatchMoneyPickup name position
+
+    let handleCollision (obj : MonoBehaviour) (globalState : IGlobalState) =
+        globalState.giveMoney 50s
+        Object.Destroy obj.gameObject
 

@@ -1,7 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+using GameLogic;
 using GameLogic.Entities;
 
 public class StructureBehaviour : Entity, IStructure
@@ -14,18 +16,21 @@ public class StructureBehaviour : Entity, IStructure
     public void setBuildProgress(BuildProgress value) =>
         buildProgress = value;
 
-    public void setHealth(float value) =>
+    public void setHealth(float value)
+    {
         health = value;
+        if (health <= 0)
+        {
+            Destroy(this);
+            if (name == "SpaceShip")
+            {
+                Console.WriteLine("You lose!");
+                Application.Quit();
+            }
+        }
+    }
 
     public override void Update() { }
 
-    public void OnMouseOver()
-    {
-        if (Input.GetMouseButtonDown(1))
-        {
-            var builders = gameState.getBuilders;
-
-            gameState.dispatchBuild(this);
-        }
-    }
+    public void OnMouseOver() => StructureLogic.handleMouseOver(this);
 }

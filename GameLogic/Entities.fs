@@ -1,6 +1,5 @@
 ﻿namespace GameLogic.Entities
 
-open System
 open UnityEngine
 
 type BuildProgress
@@ -9,11 +8,18 @@ type BuildProgress
     | InProgress of float32
 
 type IGlobalState =
-    // abstract selectBuilder : IBuilder -> unit
-    // abstract selectAnotherBuilder : IBuilder -> unit
-    // abstract selectBuilders : IBuilder array -> unit
-    // abstract dispatchBuild : IStructure -> unit
-    abstract dummy : float32
+    abstract selectBuilder : IBuilder -> unit
+    abstract selectAnotherBuilder : IBuilder -> unit
+    abstract selectBuilders : IBuilder list -> unit
+    abstract dispatchBuild : IStructure -> unit
+    abstract dispatchRepair : IStructure -> unit
+    abstract dispatchMove : Vector2 -> unit
+    abstract dispatchMove : Vector3 -> unit
+    abstract dispatchMoneyPickup : string -> Vector3 -> unit
+    abstract giveMoney : int16 -> unit
+    abstract takeMoney : int16 -> unit
+    abstract currentMoney : int16
+    abstract getBuilders : IBuilder list
 
 and IEntity =
     abstract globalState : IGlobalState
@@ -55,3 +61,6 @@ and IBuilder =
 
     abstract selected : bool with get, set
     abstract setBuildTarget : IStructure -> unit
+    abstract setRepairTarget : IStructure -> unit
+    abstract setMoveTarget : Vector3 -> unit
+    abstract setMoneyPickupTarget : string -> Vector3 -> unit
