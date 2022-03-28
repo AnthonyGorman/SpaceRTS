@@ -24,6 +24,7 @@ public abstract class Entity : MonoBehaviour, IEntity
     {
         gameState = GameObject.Find("GameState").GetComponent<GameState>();
         rigidBody = GetComponent<Rigidbody2D>();
+        rigidBody.gravityScale = 0;
     }
 
     // Update is called once per frame
